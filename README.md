@@ -1,0 +1,1 @@
+# docker_local_registry
