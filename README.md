@@ -1,6 +1,5 @@
 # Docker Local Registry
 
-
 ### Linux 下使用方法
 
     # 克隆代码
@@ -28,7 +27,7 @@
 
 方便在本机用虚拟机测试 Docker 集群,比如 Docker Swarm 和 Kubernetes.
 
-虽然通过改 DOCKER_OPTS 的加上 [--insecure-registry](https://github.com/docker/docker.github.io/blob/master/registry/insecure.md) 参数来实现使用 http registry,但觉得每台机器都要改,太麻烦了.
+虽然可以通过改 DOCKER_OPTS 的加上 [--insecure-registry](https://github.com/docker/docker.github.io/blob/master/registry/insecure.md) 参数来实现使用 http registry,但觉得每台机器都要改,太麻烦了.
 
 ### 原理
 
